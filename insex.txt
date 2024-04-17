@@ -1,0 +1,9 @@
+//file system create 
+const fs = require('fs');
+fs.writeFileSync("hello.txt",'This is a single file');
+fs.appendFileSync('hello.txt', ' Hello every one , Thank you so much y');
+const buff_data = fs.readFileSync('hello.txt');
+const data_str = buff_data.toString();
+fs.renameSync('demo.txt','leaning.txt');
+
+

@@ -1,0 +1,5 @@
+1. node init
+2. npm i express ejs mongoose body-parser express-session
+3. npm i passport passport-local 
+4. npm i chalk
+5. npm i validator

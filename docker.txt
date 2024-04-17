@@ -1,0 +1,38 @@
+*delete image docker cmd
+   1. docker image rm imagename
+   2. docker image rm imagename -f 
+
+*docker list image cmd
+   docker ps -a
+
+*docker container cmd
+    docker container rm container_name
+
+* inage version cmd
+1. docker build -t project_name;
+2. docker build -t project_name
+3. docker build -t project_name:v2
+
+*docker ignorefile
+    node_module
+    *.text
+    note.txt
+
+*docker new image command 
+    docker build -t project_name .
+
+*value update 
+    package.js file in scripts command create :  "dev":"nodemon index.js"
+    then => run npm run dev
+    then dockerfile => RUN npm intall -g nodemon
+            CMD [ "npm","run","dev"]  
+        
+* new container create
+    docker run --name container_name -p 5500:5500 --rm
+
+* value create 
+    docker run --name container_name -p 5500:5500 --rm -v  [project patth ]
+
+*compose file 
+* compose run cmd 
+    docker compose up
